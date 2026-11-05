@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Medicine & Programming</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(35, 24, 12, 0.45),
+                    rgba(35, 24, 12, 0.45)), url("https://picsum.photos/1200/800?medical");
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+        .jumbotron {
+            background-image: url("https://picsum.photos/1200/400?technology");
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .section-bg {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">MedTech</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#medicine">Medicine</a></li>
+                <li><a href="#programming">Programming</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Medicine & Programming</h1>
+            <p>
+                Two Powerful Fields That Complete Each Other
+                <span class="label label-success">Future</span>
+            </p>
+            <button class="btn btn-primary btn-lg">
+                Learn More <span class="badge">2026</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container section-bg" id="medicine">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2><span class="glyphicon glyphicon-heart"></span> Importance of Medicine</h2>
+                <p class="lead">
+                    Medicine plays a vital role in saving lives, improving health,
+                    and helping people live longer and better lives.
+                </p>
+
+                <div class="alert alert-success">
+                    Doctors use science to protect human life.
+                </div>
+
+                <div class="well text-info">
+                    Hospitals, medicines, and doctors are essential in our daily life.
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <img src="https://picsum.photos/500/300" class="img-responsive img-rounded">
+            </div>
+        </div>
+    </div>
+
+    <div class="container section-bg" id="programming">
+        <h2><span class="glyphicon glyphicon-search"></span> Programming in Medicine</h2>
+
+        <ul class="list-group">
+            <li class="list-group-item text-info">Medical Applications</li>
+            <li class="list-group-item text-info">Hospital Systems</li>
+            <li class="list-group-item text-info">AI Diagnosis</li>
+            <li class="list-group-item text-info">Medical Robots</li>
+        </ul>
+
+        <h4>Technology Impact</h4>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" style="width:70%">
+                70% Digital Medicine
+            </div>
+        </div>
+    </div>
+
+    <div class="container section-bg">
+        <h3>Medicine vs Programming</h3>
+        <table class="table table-bordered table-striped">
+            <tr class="text-info">
+                <th>Medicine</th>
+                <th>Programming</th>
+            </tr>
+            <tr>
+                <td>Treats patients</td>
+                <td>Builds systems</td>
+            </tr>
+            <tr class="text-info">
+                <td>Saves lives</td>
+                <td>Supports doctors</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container section-bg">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#collapse1">Why Both Are Important?</a>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body text-info">
+                    Medicine needs programming for accuracy, speed, and innovation.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container section-bg">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#tab1">Medicine</a></li>
+            <li><a data-toggle="tab" href="#tab2">Programming</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="tab1" class="tab-pane fade in active">
+                <p>Medicine focuses on human health.</p>
+            </div>
+            <div id="tab2" class="tab-pane fade">
+                <p>Programming provides smart solutions.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container section-bg">
+        <h3>Contact Us</h3>
+        <form>
+            <div class="form-group has-success">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+
+            <div class="form-group has-feedback">
+                <label>Password</label>
+                <input type="password" class="form-control">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+
+            <button class="btn btn-success">Submit</button>
+        </form>
+    </div>
+    <div class="container text-center">
+        <ul class="pagination">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
